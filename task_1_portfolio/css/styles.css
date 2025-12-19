@@ -1,0 +1,148 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    padding-right: 3%;
+    /* background-color: aqua; */
+    align-items: center;
+    height: 30px;
+}
+
+#navPfp {
+    border-radius: 50%;
+    height: 40px;
+    padding: 10%;
+    border: 1px solid #ED2253;
+
+}
+
+
+
+.pfp-name {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    color: #ED2253;
+}
+
+.namediv {
+    margin-left: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.sociallinks {
+    margin-right: 15%;
+
+}
+
+.sociallinks a {
+    /* color: #ED2253; */
+    color: #551A8B;
+    display: inline-block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+    font-weight: bold;
+}
+
+.sociallinks a:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.name {
+    margin-right: 10px;
+}
+
+.aboutPara {
+    padding: 0px 200px;
+    font-size: large;
+}
+
+.gnabout {
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.sie {
+    display: flex;
+    margin: 10px 100px;
+    justify-content: space-between;
+}
+
+li {
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.Projectsdiv {
+    display: flex;
+    padding: 0px 100px;
+    background-color: #cdc4d4;
+}
+
+.parentprojectdiv {
+    background-color: #cdc4d4;
+    padding: 10px 0px;
+
+    border-radius: 10px;
+}
+
+.Projectsdiv h3 {
+    color: #551A8B;
+}
+
+.Projectsdiv div {
+    background-color: #ebe9e9;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#prj {
+    text-align: center;
+}
+
+.details {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2e161b;
+}
+
+.sie h2 {
+    color: #551A8B;
+}
+
+footer {
+    background-color: #cdc4d4;
+    padding: 10px;
+    text-align: center;
+}
+
+.connect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.connect img {
+    height: 50px;
+}
+
+.experience span {
+    font-weight: bold;
+        color: #2e161b;
+}

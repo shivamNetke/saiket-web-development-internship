@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam's Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="pfp-name">
+            <div class="imgdiv">
+                <img  id="navPfp" src="data:image/jpeg;base64,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"alt=""> 
+            </div>
+            <div class="namediv">
+                <h2>Shivam Netke</h2>
+            </div>
+        </div>
+
+        <div class="socials">
+            <div class="sociallinks">
+                <a href="https://github.com/shivamNetke" target="_blank">Github</a>
+            </div>
+            <div class="sociallinks">
+                <a href="https://www.linkedin.com/in/shivam-netke-192943295/" target="_blank">Linkedin</a>
+            </div>
+            <div class="sociallinks">
+                    
+             <a class="btn"  onclick="downloadCV()" href="">Resume</a>
+             
+            </div>
+
+
+
+
+        </div>
+    </nav>
+
+    <hr>
+
+    <div class="bodydiv">
+        <div>
+            <div class="gnabout">
+                <h1>Hi, I'm <span class="name">Shivam Netke</span> an Web Developer</h1>
+                <p class="aboutPara">
+                    I am a passionate web developer pursuing BBACA, focused on building responsive, user-friendly, and
+                    secure web applications using HTML, CSS, JS and React. I enjoy turning real-world ideas into practical
+                    web solutions.
+                </p>
+            </div>
+        </div>
+
+       <div class="parentprojectdiv">
+           <h2 id="prj">Projects</h2>
+        <div class="Projectsdiv">
+            
+            <div class="onsp">                            
+            <ul>
+                <li><a href="https://serverofonspshivam.onrender.com/" target="_blank"> <h3>ONSP - Bank Website</h3></a></li>
+                <p>ONSP Bank is a digital banking project that provides online loan application services. Users can submit their personal and loan details through a simple interface, and the information is securely managed by the bank for verification. The system reduces manual paperwork and improves efficiency in banking operations.</p>
+            </ul>
+            </div>
+
+            <div class="pawpet">
+                <ul>
+                    <li><a href="https://pawpet-1anb.onrender.com/" target="_blank"><h3>PawPet - Pet Website</h3></a></li>
+                    <p>PawPet Website is an online pet selling platform that allows users to browse pets, and place orders by submitting basic information. The project provides a simple and user-friendly interface and demonstrates the use of web technologies to create a basic e-commerce website for pet sales. 🐾</p>
+                </ul>
+            </div>
+            
+        </div>
+</div>
+        
+        <div class="sie">
+            <div class="skills">
+                <h2>Skills</h2>
+                <!-- <li> -->
+                    <span class="details">Html</span>
+                    <span class="details">JS</span>
+                    <span class="details">REACT</span>
+                    <span class="details">PYTHON</span>
+                    <span class="details">C</span>
+                    <span class="details">CPP</span>
+                <!-- </li> -->
+            </div>
+            
+            <div>
+                <h2>Projects </h2>
+
+                <a href="https://serverofonspshivam.onrender.com/" target="_blank"><span class="details">ONSP - Bank Website</span></a>
+                <a href="https://pawpet-1anb.onrender.com/" target="_blank"><span class="details">PawPet - Pet Website</span></a>
+                
+            </div>
+
+            <div class="interst">
+                <h2>Interest</h2>
+                
+                <span class="details">Web Development</span>
+                <span class="details">Software Development</span>
+
+                    
+                
+            </div>
+
+            <div class="experience">
+                <h2>Experience</h2>
+                <span>Web Developer intern - Saiket System</span>
+            </div>
+
+            <div class="education">
+                <h2>Education</h2>
+                
+                 <span class="details">BBA-CA</span>
+                
+            </div>
+
+        
+
+        </div>
+
+    </div>
+
+<footer>
+    <h2>Connect</h2>
+
+    <div class="connect">
+        <a href="https://github.com/shivamNetke" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="">
+        </a>
+
+        <a href="https://www.linkedin.com/in/shivam-netke-192943295/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/1384/1384014.png" alt="">
+        </a>
+
+        <a href="https://mail.google.com/mail/u/0/?fs=1&to=netkeshiv3521@gmail.com&tf=cm" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/6244/6244710.png" alt="">
+        </a>
+    </div>
+
+    <p class="footer-text">
+        © Shivam Netke | Web / Software Developer
+    </p>
+</footer>
+
+ <script>
+      function downloadCV() {
+        const link = document.createElement("a");
+        link.href = "shivamNetkeCV.pdf";
+        link.download = "shivamNetkeCV.pdf";
+        link.click();
+      }
+    </script>
+
+</body>
+
+</html>
