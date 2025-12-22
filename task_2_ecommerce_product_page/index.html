@@ -1,13 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Shivam’s Frost Lab</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
 
-    
+    <!-- navbar start -->
+    <nav class="navbar">
+        <div class="logo">Shivam’s Frost Lab</div>
 
+
+
+        <ul class="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Flavours</a></li>
+            <li><a href="#">Specials</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <!-- navbar ends -->
+
+    <div class="productDetails">
+        <div class="productImage">
+
+            <img id="productImg" src="./assets/chocolateIcecream.png" alt="">
+
+        </div>
+
+
+        <div class="productDescription">
+            <h1>Chocolate Icecream </h1>
+            <h3>₹ 450</h3>
+            <p>Tax included.</p>
+
+            <br><br>
+            <hr>
+            <!-- <br><br> -->
+
+            <p>Nostalgia on a stick, the satisfying chocolate flavour will please your palate.</p>
+
+            <br>
+
+            <form action="" method="post">
+
+
+                <div class="quantityBox">
+                    <span class="label">Quantity:</span>
+
+                    <div class="qtyControl">
+                        <button type="button" onclick="decrease()">−</button>
+                        <span id="qty">1</span>
+                        <button type="button" onclick="increase()">+</button>
+                    </div>
+
+                </div>
+
+                <br>
+                <button id="addToCart" type="button">ADD TO CART</button><br>
+                <button id="buyItNow" type="button">BUY IT NOW</button>
+
+            </form>
+
+
+        </div>
+    </div>
+
+    <div class="ingredients">
+        <h3>Ingredients</h3>
+        <!-- <hr> -->
+        <p>Almond Milk, Almond Butter, Stevia and French Vanilla (5.2%), Dark Chocolate, Coconut Oil</p>
+    </div>
+
+    <hr>
+
+    <div>
+        <h1 class="relatedProductHeading">YOU MAY ALSO LIKE</h1>
+    </div>
+    <div class="otherProductsContainer">
+
+
+
+        <div class="card">
+            <img src="./assets/strawberryIcecream.png" alt="Ice Cream">
+            <h3>Strawberry </h3>
+            <button class="cardCartBtn">Add to Cart</button>
+
+        </div>
+
+        <div class="card">
+            <img src="./assets/vanillaicecream.png" alt="Ice Cream">
+            <h3>Vanilla </h3>
+            <button class="cardCartBtn">Add to Cart</button>
+
+        </div>
+
+        <div class="card">
+            <img src="./assets/mangoIcecream.jfif" alt="Ice Cream">
+            <h3>Alphonso Mango</h3>
+            <button class="cardCartBtn">Add to Cart</button>
+
+        </div>
+
+        <div class="card">
+            <img src="./assets/BlackCurrentIcecream.png" alt="Ice Cream">
+            <h3>Black Current</h3>
+            <button class="cardCartBtn">Add to Cart</button>
+
+        </div>
+
+        <div class="card">
+            <img src="./assets/PlainPistaIcecream.png" alt="Ice Cream">
+            <h3>Plain Pista</h3>
+            <button class="cardCartBtn">Add to Cart</button>
+
+        </div>
+
+        <div class="card">
+            <img src="./assets/AnjeerBadamIcecream.png" alt="Ice Cream">
+            <h3>Anjeer Badam</h3>
+            <button class="cardCartBtn">Add to Cart</button>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footerContainer">
+
+            <div class="footerBrand">
+                <h2>Shivam’s Frost Lab</h2>
+                <p>Crafting scoops of happiness with every bite.</p>
+            </div>
+
+            <div class="footerLinks">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Flavours</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footerContact">
+                <h4>Contact</h4>
+                <p>Email: support@shivamsfrostlab.com</p>
+                <p>Phone: +91 99999 99999</p>
+            </div>
+
+        </div>
+
+        <div class="footerBottom">
+            <p>© 2025 Shivam’s Frost Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/cart.js"></script>
 </body>
+
 </html>

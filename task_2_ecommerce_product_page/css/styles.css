@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #FFF7F2;
+}
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.logo {
+    color: #A02021;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navLinks {
+    display: flex;
+
+}
+
+.navLinks li {
+    margin: 0px 10px;
+    list-style: none;
+
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: #A02021;
+}
+
+.productDetails {
+    display: flex;
+    padding: 50px 100px;
+}
+
+.productImage {
+    padding: 20px;
+}
+
+#productImg {
+    height: 400px;
+    width: 600px;
+}
+
+.productDescription {
+    padding: 20px;
+}
+
+/* qty box start */
+.quantityBox {
+    font-family: Poppins, sans-serif;
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.qtyControl {
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    padding: 10px 18px;
+    border: 1.5px solid #ddd;
+    border-radius: 14px;
+}
+
+.qtyControl button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.qtyControl span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* qty box end */
+
+#addToCart {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: pink;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+
+}
+
+#addToCart:hover {
+
+    transform: translateY(-6px);
+    border: 1px solid #A02021;
+    background-color: white;
+    color: #A02021;
+
+}
+
+#buyItNow {
+    color: #ffffff;
+    background-color: #A02021;
+    margin: 8px 0px;
+    padding: 15px 0px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+
+}
+
+#buyItNow:hover {
+
+    transform: translateY(-6px);
+    border: 1px solid #A02021;
+    background-color: white;
+    color: #A02021;
+
+}
+
+
+
+.ingredients h3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.ingredients p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.relatedProductHeading {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+/* card styling start */
+
+.otherProductsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.productContainer {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: #fff;
+    margin: 20px;
+
+    border-radius: 16px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+.card button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: #A02021;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.card button:hover {
+    opacity: 0.9;
+}
+
+
+/* card styling ends */
+
+/* footer styling starts  */
+
+.footer {
+    background-color: #f8bfca;
+    margin-top: 60px;
+    padding-top: 40px;
+}
+
+.footerContainer {
+    background-color: #f8bfca;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 100px 30px;
+}
+
+.footerBrand {
+    background-color: #f8bfca;
+}
+
+.footerBrand h2 {
+
+    color: #A02021;
+    background-color: #f8bfca;
+
+    margin-bottom: 10px;
+}
+
+.footerBrand p {
+
+    max-width: 300px;
+    background-color: #f8bfca;
+
+    color: #555;
+}
+
+.footerLinks {
+    background-color: #f8bfca;
+
+}
+
+.footerContact {
+    background-color: #f8bfca;
+
+}
+
+.footerLinks h4,
+.footerContact h4 {
+    margin-bottom: 10px;
+    background-color: #f8bfca;
+
+
+    color: #A02021;
+}
+
+.footerLinks ul {
+    background-color: #f8bfca;
+
+    list-style: none;
+}
+
+.footerLinks ul li {
+    margin-bottom: 6px;
+    background-color: #f8bfca;
+
+}
+
+.footerLinks ul li a {
+    text-decoration: none;
+    background-color: #f8bfca;
+
+    color: #555;
+}
+
+.footerLinks ul li a:hover {
+    color: #A02021;
+}
+
+.footerContact p {
+    background-color: #f8bfca;
+
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.footerBottom {
+    text-align: center;
+    background-color: #f8bfca;
+
+    padding: 15px 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.footerBottom p {
+    background-color: #f8bfca;
+
+}
+
+/* footer styling ends  */
+
+/* mobile responsive  */
+
+@media (max-width: 768px) {
+
+  /* navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .productDetails {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #productImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .productImage {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .productDescription {
+    padding: 10px;
+  }
+
+  #addToCart,
+  #buyItNow {
+    font-size: 16px;
+  }
+
+  .ingredients p {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .otherProductsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin: 15px 0;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    padding: 0 20px 30px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footerBrand p {
+    margin: 0 auto;
+  }
+}
