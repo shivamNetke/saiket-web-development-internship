@@ -24,6 +24,8 @@ body {
 }
 
 #navPfp {
+      aspect-ratio: 1 / 1;
+
     height: 40px;
     border-radius: 50%;
     border: 1px solid #ED2253;
