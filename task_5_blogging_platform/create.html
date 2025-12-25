@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Blog</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <div class="formContainer">
+    <h2 class="createblog">Create Blog</h2>
+
+    <form id="blogForm">
+      <input type="text" id="blogTitle" placeholder="Blog Title" required>
+      <input type="text" id="blogAuthor" placeholder="Author Name" required>
+
+      <select id="blogCategory">
+        <option value="">Select Category</option>
+        <option>Technology</option>
+        <option>Education</option>
+        <option>Personal</option>
+      </select>
+
+      <textarea id="blogContent" placeholder="Write your blog..." required></textarea>
+
+      <button type="submit" class="publishBtn">Publish</button>
+    </form>
+  </div>
+
+  <script src="./js/blog.js"></script>
+</body>
+</html>
