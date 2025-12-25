@@ -66,7 +66,7 @@ body.dark .navbar {
 
 .themeBtn:hover {
   background-color: #333;
-  color: #fff;
+  color: #fff; 
 }
 
 body.dark .themeBtn {
