@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.appContainer {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.inputGroup input {
+  flex: 1;
+  padding: 10px;
+}
+
+.inputGroup button {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+#addTaskBtn {
+  background-color: green;
+  border-radius: 5px;
+  border: 1px solid green;
+  color: white;
+}
+
+#addTaskBtn:hover {
+  background-color: #65d165;
+  color: white;
+}
+
+.helperText {
+  font-size: 13px;
+  color: #777;
+  margin-top: 6px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.stats span {
+  font-size: 14px;
+}
+
+#taskList {
+  list-style: none;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+.taskItem.completed {
+  text-decoration: line-through;
+  background-color: #c8e6c9;
+}
+
+.taskActions button {
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .stats {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
