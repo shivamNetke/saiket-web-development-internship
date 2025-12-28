@@ -7,15 +7,39 @@
 
 body {
   background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLogo {
+  font-size: 20px;
+}
+
+.navText {
+  font-size: 14px;
+  opacity: 0.8;
 }
 
 .appContainer {
-  max-width: 500px;
+  max-width: 700px;  
+  width: 90%;
   margin: 50px auto;
   background: #fff;
-  padding: 25px;
-  border-radius: 8px;
+  padding: 35px;      
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
+
 
 h1 {
   text-align: center;
@@ -38,10 +62,9 @@ h1 {
 }
 
 #addTaskBtn {
-  background-color: green;
+  background-color: white;
   border-radius: 5px;
   border: 1px solid green;
-  color: white;
 }
 
 #addTaskBtn:hover {
@@ -88,9 +111,24 @@ h1 {
   cursor: pointer;
 }
 
+.footer {
+  margin-top: auto;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+}
+
+/* mobile */
 @media (max-width: 600px) {
   .stats {
     flex-direction: column;
     gap: 8px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 5px;
   }
 }
